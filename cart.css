@@ -14,10 +14,14 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 2vw;
+    margin-top: 7vw;
 
-    & h3{
+    & p{
         margin-top: 2vw;
+        font-size: 7vw;
+        font-weight: 400;
+        font-family: 'Rosarivo Regular';
+        color: #EFE3C8;
     }
   }
 
@@ -28,6 +32,11 @@
     border-radius: 50%;
     /* background-color: beige; */
     position: absolute;
-    top: 2vw;
+    top: 4vw;
+    left: 3vw;
+
+    & #chevron_back{
+        fill: #EFE3C8;
+    }
   }
 }
