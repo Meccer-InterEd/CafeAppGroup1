@@ -1,0 +1,33 @@
+@media (max-width: 412px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .titleSection{
+        position: relative;
+    }
+
+  .titleSectionComponents {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2vw;
+
+    & h3{
+        margin-top: 2vw;
+    }
+  }
+
+  a {
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    border-radius: 50%;
+    /* background-color: beige; */
+    position: absolute;
+    top: 2vw;
+  }
+}
