@@ -4,6 +4,13 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    background-color:black;
+  }
+
+  p{
+    font-family: 'Rosarivo Regular';
+    color: #EFE3C8;
+    /* font-size: 4vw; */
   }
 
   .titleSection{
@@ -20,8 +27,6 @@
         margin-top: 2vw;
         font-size: 7vw;
         font-weight: 400;
-        font-family: 'Rosarivo Regular';
-        color: #EFE3C8;
     }
   }
 
@@ -30,13 +35,111 @@
     height: 5vw;
     text-align: center;
     border-radius: 50%;
-    /* background-color: beige; */
+    background-color: #EFE3C8;
     position: absolute;
     top: 4vw;
-    left: 3vw;
+    left: 4vw;
 
     & #chevron_back{
         fill: #EFE3C8;
     }
   }
+
+  .cartItems{
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+
+    &>div{
+      background-color: #362C36;
+      margin:auto;
+      width:90vw;
+      padding-left: 2vw;
+      padding-right: 2vw;
+      /* margin-left: 2vw;
+      margin-right: 2vw; */
+      border-radius: 5vw;
+    }
+  }
+
+  .delete{
+    width:15vw;
+    height:15vw;
+    position: absolute;
+    display: none;
+    background-color: red;
+    border-radius: 50%;
+    & img{
+      margin-top: 5vw;
+      margin-bottom: 5vw;
+      width: 10vw;
+      height: 10vw;
+    }
+  }
+
+  .Item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &:hover{
+      position: relative;
+      right: 20vw;
+      & .delete{
+        right: -18vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  .details{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    width: 60vw;
+
+    & img{
+      width: 20vw;
+      height: 25vw;
+      border-radius: 5vw;
+      margin: 0;
+    }
+  }
+
+  .quantities{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+    & p{
+      width: 7vw;
+      height: 7vw;
+      padding-top:3vw;
+      border-radius: 2vw;
+      background-color: #EFE3C8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &.quantity{
+        background-color: transparent;
+        text-align: center;
+      }
+
+      & img{
+        width: 5vw;
+        height: 5vw;
+      }
+    }
+  }
+
+  .costPrice{
+    font-family: 'Raleway-SemiBold';
+    font-weight: 600;
+  }
+
 }
