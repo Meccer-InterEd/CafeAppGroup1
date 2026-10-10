@@ -1,0 +1,89 @@
+*{
+    background-color: #201520;
+}
+.header{
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.payment_options{
+    display:flex; 
+    flex-direction: column;
+    gap:20px;
+
+}
+.option {
+    padding-top: 15px;
+    color:#fff; 
+    background-color: #362C36;
+    height: 40px;
+    border-radius: 3.58px;
+    font-family: 'Raleway', sans-serif;
+}
+.option label{
+    background-color: transparent;
+}
+.option img {
+    background-color: transparent;
+    height: 20px;
+    padding-left: 10px;
+}
+
+.bottom_text{
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.address_1, .address_2{
+    color:#fff;
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+}
+.name {
+    display:flex;
+    gap:10px;
+    font-size: 18px;
+}
+.name img {
+    height:30px;
+    display: flex;
+    padding:10px;
+    background-color:#463D46;
+    border-radius: 10px;
+}
+
+.text{
+    padding-left: 20px;
+    /*display: flex;
+    flex-wrap: wrap; */
+    font-size: 12px;
+    width:280px;
+    margin-left: 55px;
+    font-weight: 100;
+}
+.footer {
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+}
+.footer img{
+    background-color:#463D46;
+    height:40px;
+    width: 50px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.footer button{
+    border-radius: 10px;
+    background-color: #EFE3C8;
+    color:#4A2B29;
+    height:50px;
+    width: 380px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+

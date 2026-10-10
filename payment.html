@@ -5,13 +5,75 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" href = "payment.css">
+    <!-- Google Font - Raleway-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Cart</title>
 </head>
 <body>
 <div class = "header">
-    <img src = "/_Icons"
-
+    <img src = "/_Icons/Arrow - Left 2.svg"> 
+    <p> Payment </p>
 </div>
-    
+<div class = "payment_options">
+    <!--google-->
+    <div class = "option">
+       <img src = "_Icons/google.svg" alt = "Google Pay">
+       <input type = "radio" id = "google" name = "payment_option" value = "google">
+       <label for = "google"> Google Pay </label>
+    </div>
+  <!--pay pal -->
+    <div class = "option">
+       <img src = "_Icons/paypal.svg" alt = "Paypal">
+       <input type = "radio" id = "paypal" name = "payment_option" value="paypal">
+       <label for = "paypal"> Paypal </label>
+    </div>
+  <!--mastercard--> 
+    <div class = "option">
+      <img src = "_Icons/mastercard.svg" alt = "Mastercard">
+      <input type = "radio" id = "mastercard" name = "payment_option" value="mastercard">
+      <label for = "paypal"> Mastercard </label>
+    </div>
+  <!--apple pay-->
+  <div class = "option">
+      <img src = "_Icons/icon.svg" alt = "Apple Pay">
+      <input type = "radio" id = "apple_pay" name = "payment_option" value="apple_pay">
+      <label for = "apple_pay"> Apple Pay </label>
+  </div>
+  <!-- cash on delivery-->
+    <div class = "option">
+      <img src = "_Icons/cash-on-delivery 1.svg" alt = "Cash on Delivery">
+      <input type = "radio" id = "cash_on_delivery" name = "payment_option" value="cash_on_delivery">
+      <label for = "cash_on_delivery"> Cash on Delivery</label>
+  </div>
+</div>
+<div class = "bottom_text"> 
+    <p> Address </p>
+</div>
+<div class = "addresses">
+    <div class = "address_1">
+        <div class = "name">
+        <img src ="_Icons/fa-solid_building.svg">
+        <p> Kayozz </p>
+        </div>
+        <p class = "text">
+            A-227/3, Nagali Puna Road, Siras Pur Road, 
+            Khera Kalan, New Delhi, Delhi 110082  
+        </p>
+    </div> 
+    <div class = "address_2">
+        <div class = "name">
+        <img src = "_Icons/ant-design_home-filled.svg">
+        <p>Suraj Kumar</p>
+        </div>
+        <p class = "text">
+            B-22/3, Samaya pur Badli Ind. area , New Delhi, Delhi 110042 
+        </p>
+    </div> 
+<div class = "footer"> 
+    <img src = "_Icons/Arrow - Left 2.svg">
+    <button class = "confirm"> Confirm </button>
+</div>
+</div>
 </body>
 </html>
