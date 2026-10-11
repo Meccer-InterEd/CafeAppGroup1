@@ -1,7 +1,7 @@
 "use strict";
 
 const incrementButtons = document.querySelectorAll(".increment");
-
+const payButton = document.querySelector("#payBtn");
 const decrementButtons = document.querySelectorAll(".decrement");
 
 let preTaxAndDeliveryAmount = 0;
@@ -14,6 +14,9 @@ const taxRate = 0.072;
 const cappuccinoPrices = document.querySelectorAll(".price");
 const itemQuantities = document.querySelectorAll(".quantity");
 
+payButton.addEventListener("click",() => {
+    window.location.href = "./payment.html";
+});
 
 incrementButtons.forEach(incrementBtn => {
     incrementBtn.addEventListener("click",() => {
