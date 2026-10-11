@@ -21,79 +21,80 @@
         </a>
     </div>
     <div class="cartItems">
-        <div class="Item">
+        <div class="Item" id="cardOne">
             <div class="details">
                 <img src="./_Images/Dalgona_Macha.jpg" alt="Dalgona Matcha" />
                 <div class="detailsText">
                     <p>Cappuccino</p>
                     <p>Dalgona Matcha</p>
-                    <p class="costPrice">R 299</p>
+                    <p class="costPrice">R <span class="price">299</span></p>
                 </div>
             </div>
             <div class="quantities">
-                <p>
+                <button id="decrementCardOne" class="decrement">
                     <img src="./_Icons/remove.svg" alt="MinusIcon" />
-                </p>
-                <p class="quantity">
-                    <span>1</span>
-                </p>
-                <p>
+                </button>
+                <button id="quantityCardOne" class="quantity">
+                    1
+                </button>
+                <button id="incrementCardOne" class="increment">
                     <img src="./_Icons/add.svg" alt="AddIcon" />
-                </p>
+                </button>
             </div>
-            <div class="delete">
+            <div id="deleteCardOne" class="delete">
                 <img src="./_Icons/trash-outline.svg" alt="DeleteIcon" />
             </div>
         </div>
-        <div class="Item">
+        <div class="Item" id="cardTwo">
             <div class="details">
                 <img src="./_Images/Bursting_Blueberry_Coffee.jpg" alt="Dalgona Matcha" />
                 <div class="detailsText">
                     <p>Cappuccino</p>
                     <p>Bursting Blueberry</p>
-                    <p class="costPrice">R 249</p>
+                    <p class="costPrice">R <span class="price">249</span></p>
                 </div>
             </div>
             <div class="quantities">
-                <p>
+                <button id="decrementCardTwo" class="decrement">
                     <img src="./_Icons/remove.svg" alt="MinusIcon" />
-                </p>
-                <p class="quantity">
-                    <span>2</span>
-                </p>
-                <p>
+                </button>
+                <button id="quantityCardTwo" class="quantity">
+                    2
+                </button>
+                <button id="incrementCardTwo" class="increment">
                     <img src="./_Icons/add.svg" alt="AddIcon" />
-                </p>
+                </button>
             </div>
-            <div class="delete">
+            <div id="deleteCardTwo" class="delete">
                 <img src="./_Icons/trash-outline.svg" alt="DeleteIcon" />
             </div>
         </div>
-        <div class="Item">
+        <div class="Item" id="cardThree">
             <div class="details">
                 <img src="./_Images/Cinnamon_Cappuccino.jpg" alt="Dalgona Matcha" />
                 <div class="detailsText">
                     <p>Cappuccino</p>
                     <p>Cinnamon & Cocoa</p>
-                    <p class="costPrice">R 99</p>
+                    <p class="costPrice">R <span class="price">99</span></p>
                 </div>
             </div>
             <div class="quantities">
-                <p>
+                <button id="decrementCardThree" class="decrement">
                     <img src="./_Icons/remove.svg" alt="MinusIcon" />
-                </p>
-                <p class="quantity">
-                    <span>1</span>
-                </p>
-                <p>
+                </button>
+                <button id="quantityCardThree" class="quantity">
+                    1
+                </button>
+                <button id="incrementCardThree" class="increment">
                     <img src="./_Icons/add.svg" alt="AddIcon" />
-                </p>
+                </button>
             </div>
-            <div class="delete">
+            <div id="deleteCardThree" class="delete">
                 <img src="./_Icons/trash-outline.svg" alt="DeleteIcon" />
             </div>
         </div>
     </div>
 </main>
+<script src="./cart.js" type="text/javascript"></script>
 </body>
 </html>
