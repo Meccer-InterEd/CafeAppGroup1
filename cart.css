@@ -51,7 +51,7 @@
   .cartItems{
     display: flex;
     flex-direction: column;
-    /* gap: 5vw; */
+    flex-grow: 2;
     border-bottom: 2px dashed #362C36;
 
 
