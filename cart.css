@@ -36,9 +36,12 @@
     text-align: center;
     border-radius: 50%;
     background-color: #EFE3C8;
-    position: absolute;
-    top: 4vw;
-    left: 4vw;
+
+    &#previousPage{
+      position: absolute;
+      top: 4vw;
+      left: 4vw;
+    }
 
     & #chevron_back{
         fill: #EFE3C8;
@@ -101,8 +104,8 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
     width: 60vw;
 
     & img{
@@ -149,5 +152,67 @@
 
   #cardThree, #cardTwo, #cardOne{
     margin-bottom: 5vw;
+  }
+
+  .couponCode{
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #38232A;
+    margin-top: 5vw;
+    border-radius: 5vw;
+
+    & img{
+      transform: scaleX(-1);
+    }
+  }
+
+  .additionalCharges{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90vw;
+    position: sticky;
+    bottom: 25vw;
+    background-color: black;
+
+    & .taxes{
+      margin-bottom: 5vw;
+      border-bottom: 2px dashed #362C36;
+    }
+  }
+
+  .deliveryCharges, .taxes, .finalAmount{
+    margin:auto;
+    width:90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #payBtn{
+    border: none;
+    background-color: #EFE3C8;
+    margin: auto;
+    width: 90vw;
+    border-radius: 5vw;
+    height: 10vw;
+  }
+
+  .CallToAction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90vw;
+    margin-top: 0;
+    position: sticky;
+    bottom: 5vw;
+    background-color: black;
   }
 }
