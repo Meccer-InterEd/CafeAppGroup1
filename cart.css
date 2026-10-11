@@ -48,7 +48,9 @@
   .cartItems{
     display: flex;
     flex-direction: column;
-    gap: 5vw;
+    /* gap: 5vw; */
+    border-bottom: 2px dashed #362C36;
+
 
     &>div{
       background-color: #362C36;
@@ -81,6 +83,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 5vw;
 
     &:hover{
       position: relative;
@@ -115,10 +118,10 @@
     /* justify-content: space-between; */
     align-items: center;
 
-    & p{
+    & button{
       width: 7vw;
       height: 7vw;
-      padding-top:3vw;
+      z-index: 10;
       border-radius: 2vw;
       background-color: #EFE3C8;
       display: flex;
@@ -128,6 +131,8 @@
       &.quantity{
         background-color: transparent;
         text-align: center;
+        border: none;
+        color: white;
       }
 
       & img{
@@ -142,4 +147,7 @@
     font-weight: 600;
   }
 
+  #cardThree, #cardTwo, #cardOne{
+    margin-bottom: 5vw;
+  }
 }
