@@ -85,5 +85,45 @@
     font-size: 20px;
 }
 
+.modal-container {
+    display: none;
+    flex-direction: column;
+    height: 65%;
+    width: 85%;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #1a111a;
+}
+
+.modal-items {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #EDD2D2;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    padding: 0 50px;
+}
+
+.modal-items img {
+    width: 70%;
+    height: 80%;
+}
+
+.modal-items button {
+    border: none;
+    border-radius: 10%;
+    background-color: rgba(57, 135, 46, 0.07);
+    color: #39872E;
+    width: 55%;
+    height: 60%;
+}
+
 
 
