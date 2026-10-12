@@ -21,8 +21,9 @@
 
 .first {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    /* align-items: center; */
+    justify-content: start;
+    /* justify-content: space-evenly; */
 
     & img{
         position: relative;
@@ -32,7 +33,7 @@
 
 .second {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     & img{
         position: relative;
     }
