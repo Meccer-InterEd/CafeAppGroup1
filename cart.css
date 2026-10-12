@@ -1,5 +1,5 @@
 @media (max-width: 412px) {
-  body {
+  body{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +51,7 @@
   .cartItems{
     display: flex;
     flex-direction: column;
-    flex-grow: 2;
+    flex-grow: 1;
     border-bottom: 2px dashed #362C36;
 
 
@@ -75,8 +75,8 @@
     background-color: red;
     border-radius: 50%;
     & img{
-      margin-top: 5vw;
-      margin-bottom: 5vw;
+      margin-top: 2.5vw;
+      margin-bottom: 2.5vw;
       width: 10vw;
       height: 10vw;
     }
@@ -86,7 +86,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 5vw;
+    margin-bottom: 2.5vw;
+    height: 15vh;
 
     &:hover{
       position: relative;
@@ -151,7 +152,7 @@
   }
 
   #cardThree, #cardTwo, #cardOne{
-    margin-bottom: 5vw;
+    margin-bottom: 2.5vw;
   }
 
   .couponCode{
@@ -161,7 +162,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #38232A;
-    margin-top: 5vw;
+    margin-top: 2.5vw;
     border-radius: 5vw;
 
     & img{
@@ -176,12 +177,13 @@
     align-items: center;
     margin: auto;
     width: 90vw;
-    position: sticky;
+    position: fixed;
+    left: 5vw;
     bottom: 25vw;
     background-color: black;
 
     & .taxes{
-      margin-bottom: 5vw;
+      margin-bottom: 2.5vw;
       border-bottom: 2px dashed #362C36;
     }
   }
@@ -211,8 +213,9 @@
     margin: auto;
     width: 90vw;
     margin-top: 0;
-    position: sticky;
-    bottom: 5vw;
+    position: fixed;
+    left: 5vw;
+    bottom: 2.5vw;
     background-color: black;
   }
 }
