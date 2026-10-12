@@ -15,7 +15,9 @@ const cappuccinoPrices = document.querySelectorAll(".price");
 const itemQuantities = document.querySelectorAll(".quantity");
 
 payButton.addEventListener("click",() => {
-    window.location.href = "./payment.html";
+    if (document.querySelectorAll(".Item").length !== 0) {
+        window.location.href = "./payment.html";
+    }
 });
 
 incrementButtons.forEach(incrementBtn => {
